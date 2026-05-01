@@ -52,19 +52,19 @@ To use the application directly in your browser without any installation, visit 
 
 This application uses local Excel files as a lightweight database. You do not need to create these files manually. The application will automatically generate them in the same folder the first time you run it:
 
-Users.xlsx: Stores user profiles (First Name, Last Name, Role).
-interview_questions.xlsx: Stores the bank of questions created by Managers.
-assigned_questions.xlsx: Tracks which questions have been assigned to which candidates.
+Users.xlsx: Stores user profiles (First Name, Last Name, Role). <br /> 
+interview_questions.xlsx: Stores the bank of questions created by Managers. <br /> 
+assigned_questions.xlsx: Tracks which questions have been assigned to which candidates. <br /> 
 interview_responses.xlsx: Stores the answers submitted by candidates. <br />  <br /> 
 
 
 
 ## 💡 Usage Guide (First Time Setup)
 
-Create a Manager Account: Open the app, enter your First and Last name. Since you are not in the system yet, it will prompt you to select a role. Choose Manager and click "Save User".
-Add Questions: As a Manager, go to "Create Questions" and add a few sample interview questions.
-Create a Candidate: Log out, then log in with a new name. Select the Candidate role.
-Create an Interviewer: Log out, log in with a third name, and select Interviewer. Use this account to assign the questions you created in Step 2 to the Candidate you created in Step 3.
+Create a Manager Account: Open the app, enter your First and Last name. Since you are not in the system yet, it will prompt you to select a role. Choose Manager and click "Save User". <br /> 
+Add Questions: As a Manager, go to "Create Questions" and add a few sample interview questions. <br /> 
+Create a Candidate: Log out, then log in with a new name. Select the Candidate role. <br /> 
+Create an Interviewer: Log out, log in with a third name, and select Interviewer. Use this account to assign the questions you created in Step 2 to the Candidate you created in Step 3. <br /> 
 Test the Flow: Log back in as the Candidate to see your assigned questions and submit your answers! <br /> <br /> 
 
 
