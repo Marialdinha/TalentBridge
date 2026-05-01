@@ -65,3 +65,4 @@ Test the Flow: Log back in as the Candidate to see your assigned questions and s
 Migration from Excel files to SQLite for improved concurrency and performance. <br /> 
 Implementation of secure password authentication.<br /> 
 Email notifications for candidates when questions are assigned.
+Option to delete entries in the tables.
