@@ -74,4 +74,9 @@ Test the Flow: Log back in as the Candidate to see your assigned questions and s
 Migration from Excel files to SQLite for improved concurrency and performance. <br /> 
 Implementation of secure password authentication.<br /> 
 Email notifications for candidates when questions are assigned.<br /> 
-Capability to delete entries in the tables.
+Capability to delete entries in the tables.<br /> <br /> 
+
+
+## 💡 Want to see how this app was built? 
+Check out the [Project Development Log ](TalentBridge_development_log.pdf). <br />
+It includes a step by step breakdown of my development methodology, the challenges I overcame (like optimizing Streamlit's UI limitations), and the exact AI prompts I used to generate features."
