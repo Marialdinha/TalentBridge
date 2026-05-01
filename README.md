@@ -26,7 +26,7 @@ pip install streamlit pandas openpyxl
 ```  
 <br /> 
 
-🚀 How to Run the Application
+🚀 How to Run the Application on the terminal
 
 Download or clone this repository to your local machine.
 Ensure you have the TalentBridge.png image file in the same directory as your script (for the login page banner).
@@ -35,7 +35,7 @@ Navigate to the folder containing talentbridge.py.
 Run the command below: (The application will automatically open in your default web browser.)
 ```bash
 streamlit run talentbridge.py
-```  
+```
 
  <br /> 
 
@@ -64,5 +64,5 @@ Test the Flow: Log back in as the Candidate to see your assigned questions and s
 
 Migration from Excel files to SQLite for improved concurrency and performance. <br /> 
 Implementation of secure password authentication.<br /> 
-Email notifications for candidates when questions are assigned.
-Option to delete entries in the tables.
+Email notifications for candidates when questions are assigned.<br /> 
+Capability to delete entries in the tables.
