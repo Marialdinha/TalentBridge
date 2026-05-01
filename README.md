@@ -16,8 +16,10 @@ TalentBridge features a role-based dashboard that adapts to the user logging in:
 *   **📝 Candidates**
     *   **Asynchronous Interviews:** View questions specifically assigned to them.
     *   **Submit Answers:** Draft and submit answers to interview questions in a clean, distraction-free interface.
+ 
 <br /> 
-🛠️ Prerequisites
+
+## 🛠️ Prerequisites
 
 Before running the application, ensure you have Python installed on your computer. You will also need to install the required Python libraries.
 (Note: openpyxl is required by Pandas to read and write Excel files).
@@ -26,7 +28,7 @@ pip install streamlit pandas openpyxl
 ```  
 <br /> 
 
-🚀 How to Run the Application on the terminal
+## 🚀 How to Run the Application Locally
 
 Download or clone this repository to your local machine.
 Ensure you have the TalentBridge.png image file in the same directory as your script (for the login page banner).
@@ -37,9 +39,16 @@ Run the command below: (The application will automatically open in your default 
 streamlit run talentbridge.py
 ```
 
+<br /> 
+
+## 🚀 How to Run the Application on the Web
+
+To use the application directly in your browser without any installation, visit the live app here: <br />
+[TalentBridge Web App](https://talentbridge.streamlit.app/)
+
  <br /> 
 
-📂 Project Structure & Data Storage
+## 📂 Project Structure & Data Storage
 
 This application uses local Excel files as a lightweight database. You do not need to create these files manually. The application will automatically generate them in the same folder the first time you run it:
 
@@ -50,7 +59,7 @@ interview_responses.xlsx: Stores the answers submitted by candidates. <br />  <b
 
 
 
-💡 Usage Guide (First Time Setup)
+## 💡 Usage Guide (First Time Setup)
 
 Create a Manager Account: Open the app, enter your First and Last name. Since you are not in the system yet, it will prompt you to select a role. Choose Manager and click "Save User".
 Add Questions: As a Manager, go to "Create Questions" and add a few sample interview questions.
@@ -60,7 +69,7 @@ Test the Flow: Log back in as the Candidate to see your assigned questions and s
 
 
 
-🔮 Future Roadmap
+## 🔮 Future Roadmap
 
 Migration from Excel files to SQLite for improved concurrency and performance. <br /> 
 Implementation of secure password authentication.<br /> 
